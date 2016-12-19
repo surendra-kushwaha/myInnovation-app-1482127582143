@@ -200,6 +200,13 @@ select {
 	margin-top: 10px;
 }
 
+.bck-msg .bg-btmtp {
+	font-size: 11px;
+	margin-top: 10px;
+	padding: 2px 8px;
+	min-height: 118px;
+}
+
 .top-sub-headers {
 	background-image: url("../images/Inner_Header_Bg.jpg");
 	border-bottom: solid 2px #46b69d;
@@ -503,24 +510,31 @@ select {
 }
 
 .title-popular {
+		margin-bottom: 0;
+    padding: 12px 5px;
+		background: #e5e5e5;
+}
+
+.title-popular a{
 		font-size: 14px;
     font-weight: 600;
-    color: #049791;
-		margin-bottom: 0;
-    background: #efefef;
-    padding: 12px 5px;
+		color: #666;
 }
 
 .design {
-		float: right;
-    width: 80%;
-    margin-top: -16px;
-		font-size: 12px;
+	float: right;
+	width: 70%;
+	margin-top: -16px;
+	font-size: 10px;
 }
 
 .owner-det {
 	margin-top: 15px;
   padding-left: 5px;
+}
+
+.owner-det b{
+	color: #666;
 }
 
 .by-polpular {
@@ -553,8 +567,9 @@ color:#000000;
 
 footer {
 	margin-top: 30px;
-	background-color: #119c52;
-	color:#f2f2f2;
+	background: #e5e5e5;
+	color: #666;
+	font-weight: bold;
 }
 
 footer p{
@@ -1383,6 +1398,8 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 .bck-msg {
 	display: none;
 	cursor: pointer;
+	background: #e5e5e5;
+	color: #666;
 }
 
 .med-bar-p {
@@ -1410,4 +1427,25 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 .ide-det {
 	clear: both;
 	padding: 8px;
+}
+
+.a-link {
+	color: #007fc1;
+	cursor: pointer;
+}
+
+progress {
+		background-color: #efefef;
+    border: 0;
+    height: 8px;
+    border-radius: 9px;
+    width: 95%;
+}
+
+progress::-webkit-progress-value {
+    background-color: #67c5ff;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #efefef;
 }
