@@ -205,7 +205,6 @@ select {
 	margin-top: 10px;
 	padding: 2px 8px;
 	min-height: 118px;
-	
 }
 
 .top-sub-headers {
@@ -511,12 +510,15 @@ select {
 }
 
 .title-popular {
+		margin-bottom: 0;
+    padding: 12px 5px;
+		background: #e5e5e5;
+}
+
+.title-popular a{
 		font-size: 14px;
     font-weight: 600;
-    color: #049791;
-		margin-bottom: 0;
-    background: #efefef;
-    padding: 12px 5px;
+		color: #666;
 }
 
 .design {
@@ -529,6 +531,10 @@ select {
 .owner-det {
 	margin-top: 15px;
   padding-left: 5px;
+}
+
+.owner-det b{
+	color: #666;
 }
 
 .by-polpular {
@@ -561,8 +567,9 @@ color:#000000;
 
 footer {
 	margin-top: 30px;
-	background-color: #119c52;
-	color:#f2f2f2;
+	background: #e5e5e5;
+	color: #666;
+	font-weight: bold;
 }
 
 footer p{
@@ -1391,6 +1398,8 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 .bck-msg {
 	display: none;
 	cursor: pointer;
+	background: #e5e5e5;
+	color: #666;
 }
 
 .med-bar-p {
@@ -1423,4 +1432,20 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 .a-link {
 	color: #007fc1;
 	cursor: pointer;
+}
+
+progress {
+		background-color: #efefef;
+    border: 0;
+    height: 8px;
+    border-radius: 9px;
+    width: 95%;
+}
+
+progress::-webkit-progress-value {
+    background-color: #67c5ff;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #efefef;
 }
