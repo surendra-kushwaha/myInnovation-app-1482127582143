@@ -16,7 +16,7 @@ body {
 }
 
 .hide-arr-menu {
-	float: right;
+	float: right; 
 	top: 90px;
 	position: fixed;
 	right: 0px;
