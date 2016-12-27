@@ -115,5 +115,5 @@ app.controller('homeCtrl', function($scope, $location, $state, $http, $rootScope
 		  $(this).text(textt);
 		});
   }
-})();
+});
 
