@@ -1,6 +1,6 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 
-var app = angular.module('myInnovative', ['ui.router']);
+var app = angular.module('myInnovation-app', ['ui.router']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
@@ -30,6 +30,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			controller: 'homeCtrl'
         });
 	$urlRouterProvider.otherwise('/myinnovative-landing');
-});
+})();
 
 
