@@ -28,8 +28,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
             url: '/myinnovative-myIdeas',
             templateUrl: 'views/myinnovative-myideas.html',
 			controller: 'homeCtrl'
+        })
+				.state('myinnovative-innovcontest', {
+            url: '/myinnovative-innovcontest',
+            templateUrl: 'views/myinnovative-innovcontest.html',
+			controller: 'homeCtrl'
         });
 	$urlRouterProvider.otherwise('/myinnovative-landing');
 });
-
-
