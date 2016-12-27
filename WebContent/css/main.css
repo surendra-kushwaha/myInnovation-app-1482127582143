@@ -15,6 +15,15 @@ body {
 	display: none;
 }
 
+.tx span:nth-child(1){
+	width: 50%;
+}
+
+.tx span {
+	display: inline-flex;
+	width: 20%;
+}
+
 .hide-arr-menu {
 	float: right;
 	top: 90px;
@@ -411,7 +420,7 @@ li.selected {
 
 .popularGraphData div span:first-child{
 		visibility: hidden;
-} 
+}
 
 .amt-popular {
     font-size: 14px;
@@ -560,7 +569,7 @@ footer p{
 /*Commons*/
 
 .idea-menus-new a{
-	text-decoration: none !important;	
+	text-decoration: none !important;
 }
 
 .txt-center{
@@ -617,7 +626,7 @@ footer p{
 }
 
 .under-txt img {
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 .hidden-txt {
@@ -755,7 +764,7 @@ a.cancel-file {
     padding-right: 30px;
 }
 
-.my-ideas .menus li a{ 
+.my-ideas .menus li a{
 	 color: #cbcbcb;
 	 font-weight: 600;
 }
@@ -773,7 +782,7 @@ a.cancel-file {
 	height: 10px;
 }
 
-.my-ideas .menus li a{ 
+.my-ideas .menus li a{
 	 color: #999999;
 }
 
@@ -800,16 +809,18 @@ a.cancel-file {
 }
 
 .arrow-right {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 5px solid black;
   margin: 0 auto;
 }
 
-.my-ideas .menus li a.active {
+.my-ideas .menus li a.active, .my-ideas .menus li a:hover {
 	color: #000;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .inner-left, .inner-right {
@@ -823,7 +834,7 @@ a.cancel-file {
     /* bottom: 0; */
     margin-top: 70px;
 }
- 
+
 .btn-highlight {
 	padding: 5px 25px;
     border: solid 1px #00a8df;
@@ -832,7 +843,7 @@ a.cancel-file {
     margin-left: 30px;
     font-weight: bold;
     cursor: pointer;
-}    
+}
 
 .add-role-select {
 	font-size: 12px !important;
@@ -853,7 +864,7 @@ a.cancel-file {
     margin-top: 20px;
 }
 
-.backs {
+.fronts, .new-rght {
 	display: none;
 }
 
@@ -889,7 +900,7 @@ a.cancel-file {
 /* ————————————————————–
   Tree core styles
 */
-.tree { margin: 1em; 
+.tree { margin: 1em;
 padding-left: 15px;
 }
 
@@ -1027,4 +1038,3 @@ label.tree_label:after { border-bottom: 0; }
 	height:60px;
 	margin-left:0px;
 }
-
