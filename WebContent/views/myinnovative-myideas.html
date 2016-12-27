@@ -1,0 +1,246 @@
+<div class="top-big-header-new sub-pages-head">
+<div class="container">
+<div class="top-bar-new row">
+	<div class="col-lg-4 col-md-4 col-sm-2 mob-fix">
+		<a class="logo-links" href="#/innovative-landing"><img src="images/Accenture_logo.png"></a>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8 txt-right">
+		<ul class="idea-menus-new">
+			<li><a href="#/myinnovative-addIdeas"><img src="images/icon_Add_Ideas.png">&nbsp;&nbsp;&nbsp;<b>Add Ideas</b></a></li>
+			<li><a href="#/myinnovative-myIdeas"><img src="images/icon_Myideas.png">&nbsp;&nbsp;&nbsp;<b>My Ideas</b></a></li>
+			<li><a href="#/innovative-implementations"><img src="images/icon_Explore_ideas.png">&nbsp;&nbsp;&nbsp;<b>Explore Ideas</b></a></li>
+			<li><a href="#/innovative-implementations"><img src="images/icon_Platform_Ecosystem.png">&nbsp;&nbsp;&nbsp;<b>Platform Ecosystem</b></a></li>
+			<li>
+				<span><a href="#/innovative-profile" style="text-decoration: none;">
+				<img style="border-radius: 50%;" src="images/user.png" width="27" height="27" border="0">
+				</a></span>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</div>
+<div class="container sub-containers my-ideas create-ideas">
+<p class="hd1">My Ideas</p>
+<ul class="menus">
+	<li><a href="#/myinnovative-judge" class="tablinks" ng-click="openCity(event, 'London')" id="defaultOpen">JUDGE</a></li>
+	<li><a href="javascript:void(0)" class="tablinks" ng-click="openCity(event, 'Paris')">SPONSOR</a></li>
+	<li><a href="javascript:void(0)" class="tablinks" ng-click="openCity(event, 'London')">MENTOR</a></li>
+	<li><a href="javascript:void(0)" class="tablinks" ng-click="openCity(event, 'London')">CONTRIBUTOR</a></li>
+	<li><a href="javascript:void(0)" class="tablinks" ng-click="openCity(event, 'London')">INNOVATION CONTEST</a>
+	<li><a href="javascript:void(0)" class="tablinks active" ng-click="openCity(event, 'London')">INNOVATION CHALLENGE</a>
+		<div class="arrow-right"></div>
+	</li>
+</ul>
+<ul class="menu tab">
+	<li><a href="javascript:void(0)" class="tablinks active" ng-click="openCity(event, 'London')" id="defaultOpen">Add New Challenge</a></li>
+	<li><a href="#/myinnovative-activechallenge" class="tablinks" ng-click="openCity(event, 'Paris')">Active Challenge</a></li>
+	<li><a href="javascript:void(0)" class="tablinks" ng-click="openCity(event, 'London')">Closed Challenge</a></li>
+	<li style="float: right;width: 30%;margin-top: 6px;">
+	<span><a class="act-btn">Save as Draft</a></span>
+	<span><a class="dea-btn">Publish Challenge</a></span>
+	</li>
+</ul>
+<!-- div class="row top-added">
+	<div class="col-lg-6 col-md-6"><p class="hd1">Add Ideas</p></div>
+	<div class="col-lg-6 col-md-6"><a href class="ah-link">How does it work?</a>
+	<span><a class="act-btn">Save as Draft</a></span>
+	<span><a class="dea-btn">Publish Contest</a></span></div>
+</div-->
+<div class="middle-added">
+	<div class="top-row1" style="margin-top: 0">
+	<div class="inner-left">
+		<p class="above-txt">*Challenge Name</p>
+		<div>
+			<input type="text" placeholder="">
+			<p class="below-txt"><span>&nbsp;</span> <t class="under-txt">50 characters remaining(50 maximum)</t></p>
+		</div>
+		<p class="above-txt">
+		<span>*Start Date</span><span>*End Date</span><span>*Close Date</span>
+		</p>
+		<div>
+			<p class="date-icons"><span><input type="text" placeholder="DD/MM/YYYY">
+			</span><span><a><img src="images/Calender.png"></a></span><span><input type="text" placeholder="DD/MM/YYYY"></span><span><a><img src="images/Calender.png"></a></span><span><input type="text" placeholder="DD/MM/YYYY"></span><span><a><img src="images/Calender.png"></a></span></p>
+			<p class="below-txt"><span>&nbsp;</span> <t class="under-txt">&nbsp;</t></p>
+		</div>
+	</div>
+	<div class="inner-right">
+		<div class="fronts">
+		<p class="above-txt">Add Delegate</p>
+		<div>
+			<input type="text" placeholder="Enterprise id">
+			<p class="below-txt"><span>&nbsp;</span> 
+			<t class="under-txt"  style="float: left;">
+				<img src="images/Details-Followers2.png" class="cls-btns"/> Delegate Id <img src="images/icon_form_close.png" class="cls-btns"/>
+			</t>
+			</p>
+		</div>
+		</div>
+		<div class="backs" style="width: 260px;margin: 0 auto;">
+			<br />
+			<div class="btn-highlight">Delegate this Challenge</div>
+			<br />
+			<p style="text-align: center;">OR</p>
+			<p style="text-align: center;"><a ng-click="frontsShow()" style="color: #7f7f7f;cursor: pointer; text-decoration: none;">Continue to add values to below fields</a></p>
+		</div>
+		<div class="new-rght"><span><a ng-click="backsShow()" style="cursor: pointer;">< Back</a></span><span class="btn-highlight">Delegate this Challenge</span></div>
+	</div>
+	</div>
+	<div class="top-row2">
+		<div class="inner-left">
+		<p class="above-txt">*Applicable Entities</p>
+		<div>
+			<div class="tree-box">
+			<ul class="tree">
+  <li>
+    <input type="checkbox" checked="checked" id="c1" />
+    <label class="tree_label" for="c1">Accenture Technology</label>
+    <ul>
+      <li>
+        <input type="checkbox" id="c2" />
+        <label for="c2" class="tree_label">AMD</label>
+        <ul>
+          <li><span class="tree_label">Level 2</span></li>
+          <li><span class="tree_label">Level 2</span></li>
+        </ul>
+      </li>
+      <li>
+        <input type="checkbox" id="c3" />
+        <label for="c3" class="tree_label">ASW</label>
+        <ul>
+          <li><span class="tree_label">Level 2</span></li>
+          <li>
+            <input type="checkbox" id="c4" />
+            <label for="c4" class="tree_label">Item3</label>
+            <ul>
+              <li><span class="tree_label">Level 3</span></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <input type="checkbox" id="c5" />
+        <label for="c5" class="tree_label">AVANADE</label>
+        <ul>
+          <li><span class="tree_label">Level 2</span></li>
+          <li>
+            <input type="checkbox" id="c6" />
+            <label for="c6" class="tree_label">Item4</label>
+            <ul>
+              <li><span class="tree_label">Level 3</span></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</div>
+			<p class="below-txt"><span>&nbsp;</span> <t class="under-txt">&nbsp;</t></p>
+		</div>
+		<p class="above-txt">*Add Mentor</p>
+		<div>
+			<input type="text" placeholder="Enterprise id">
+			<t class="under-txt"  style="float: left;">
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Mentor Id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Mentor Id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Mentor Id <img src="images/icon_form_close.png" class="cls-btns"/></p>	
+			</t>
+		</div>
+		<p class="above-txt" style="clear: both;">*Add Invitees</p>
+		<div>
+			<input type="text" placeholder="Enterprise id">
+			<t class="under-txt"  style="float: left;text-align: left;">
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Invitees Id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+				<p style="with: 50%;">
+				<select class="add-role-select">
+				<option>Add Roles to invitees</option>
+				</select></p>
+				<span class="selected-s">Category&nbsp;<img src="images/icon_form_close.png" class="cls-btns"/></span><span class="selected-s">Category&nbsp;<img src="images/icon_form_close.png" class="cls-btns"/></span>
+			</t>
+		</div>
+	</div>
+	<div class="inner-right">
+		<p class="above-txt"><label class="bfr">*Client Co-Innovation</label>&nbsp;<span class="check-box"><input type="checkbox" checked></span></p>
+		<div>
+			<input type="text" placeholder="Enterprise id">
+			<p class="below-txt"><span>&nbsp;</span> 
+			<t class="under-txt"  style="float: left;">
+				<img src="images/Details-Followers2.png" class="cls-btns"/> Client Id <img src="images/icon_form_close.png" class="cls-btns"/>
+			</t>
+			</p>
+		</div>
+		<br/>
+		<p class="above-txt">*Add Innovation Councillor</p>
+		<div>
+			<input type="text" placeholder="Enterprise id">
+			<t class="under-txt"  style="float: left;">
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Councillor id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Councillor id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+				<p><img src="images/Details-Followers2.png" class="cls-btns"/> Councillor id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+			</t>
+		</div>
+		<br style="clear: both;"/>	
+		<p style="clear: both;"><span><label class="bfr">Private </label><input type=radio checked></span> <span><label class="bfr">Public </label><input type=radio></span></p>
+		<p class="above-txt">*Add Category</p>
+		<div>
+			<input type="text" placeholder="Enter Category">
+			<input type="text" placeholder="Select Category">
+			<t class="under-txt"  style="float: left;">
+				 <span class="selected-s">Category&nbsp;<img src="images/icon_form_close.png" class="cls-btns"/></span><span class="selected-s">Category&nbsp;<img src="images/icon_form_close.png" class="cls-btns"/></span>
+			</t>
+		</div>
+	</div>
+	</div>
+	<div class="top-row3">
+		<div class="inner-left">
+			<p class="above-txt"><label class="bfr">Challenge URL</label></p>
+			<div>
+				<input type="text" placeholder="Challenge home page URL">
+				<p class="below-txt"><span>&nbsp;</span> <t class="under-txt">50 characters remaining(50 maximum)</t></p>
+			</div>
+			<p class="above-txt">*Add Judges</p>
+			<div>
+				<input type="text" placeholder="Enterprise id">
+				<t class="under-txt"  style="float: left;">
+					<p><img src="images/Details-Followers2.png" class="cls-btns"/> Judge Id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+					<p><img src="images/Details-Followers2.png" class="cls-btns"/> Judge Id <img src="images/icon_form_close.png" class="cls-btns"/></p>
+				</t>
+			</div>
+		</div>
+		<div class="inner-right">
+			<p><span><label class="bfr">Ranking</label> <input type=radio checked></span> <span><label class="bfr">Rating </label><input type=radio></span></p>
+			<div>
+				<span class="rate-box">Rating<br />1 to 5</span><span class="rate-box2">Rating<br />1 to 10</span>
+			</div>
+			<div>
+				<select>
+					<option>Select rating criteria</option>
+				</select>
+				<p class="below-txt"><span>&nbsp;</span> <t class="under-txt"  style="float: left;">
+					<span class="selected-s">Usability&nbsp;<img src="images/icon_form_close.png" class="cls-btns"/></span>
+					<span class="selected-s">Data VAlue Saving&nbsp;<img src="images/icon_form_close.png" class="cls-btns"/></span>
+				</t></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="top-row4" style="border-bottom: 0">
+		<div class="inner-left" style="min-height: 140px;">
+		<p class="above-txt">0% of relevance Match for similar ideas</p>
+		<div>
+			<input type="text">
+			<p class="below-txt"><span>&nbsp;</span> <t class="under-txt">&nbsp;</t></p>
+		</div>
+	</div>
+	<div class="inner-right" style="min-height: 140px;">
+		<p class="above-txt"><span class="equal2spans"><label class="bfr">Is Mentor approval needed</label>&nbsp;<span class="check-box"><input type="checkbox"></span></span><span class="equal2spans">Max number of likes</span></p>
+		<div style="clear: both;">
+			<span class="equal2spans"><input type="text" placeholder="Max days"></span><span class="equal2spans"><input type="text" placeholder="Max Likes"></span>
+			<p class="below-txt"><span>&nbsp;</span> <t class="under-txt">&nbsp;</t></p>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="btm-btns"><span><a class="act-btn">Save as Draft</a></span><span><a class="dea-btn">Submit</a></span></div>
+</div>
